@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B301A802079738A00E0520D /* ListenerCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B301A7F2079738A00E0520D /* ListenerCodeViewController.swift */; };
+		3B301A882079C6D200E0520D /* albumArtExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B301A872079C6D200E0520D /* albumArtExtension.swift */; };
+		3B301A8A2079CAA300E0520D /* currentlyPlayingObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B301A892079CAA300E0520D /* currentlyPlayingObject.swift */; };
+		3B63EF5E20881CF200722AA3 /* displayDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B63EF5D20881CF200722AA3 /* displayDetails.swift */; };
+		3B7051432076E3420089E6E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7051422076E3420089E6E1 /* AppDelegate.swift */; };
+		3B7051452076E3420089E6E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7051442076E3420089E6E1 /* ViewController.swift */; };
+		3B7051482076E3420089E6E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B7051462076E3420089E6E1 /* Main.storyboard */; };
+		3B70514A2076E3430089E6E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B7051492076E3430089E6E1 /* Assets.xcassets */; };
+		3B70514D2076E3430089E6E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B70514B2076E3430089E6E1 /* LaunchScreen.storyboard */; };
+		3B7051592076E49E0089E6E1 /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B7051582076E49E0089E6E1 /* SpotifyAuthentication.framework */; };
+		3B70515F2076E8A40089E6E1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B70515E2076E8A40089E6E1 /* Constants.swift */; };
+		3B913C9D2076F81A00B6F24A /* apolloNotificationConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B913C9C2076F81A00B6F24A /* apolloNotificationConstant.swift */; };
+		3B913C9F2076FD7F00B6F24A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B913C9E2076FD7F00B6F24A /* MainViewController.swift */; };
+		3B913CA3207717C500B6F24A /* urlExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B913CA2207717C500B6F24A /* urlExtension.swift */; };
+		3B9E00D9207923A100B972C4 /* DJCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E00D8207923A100B972C4 /* DJCodeViewController.swift */; };
+		3B9E00DB20792A3000B972C4 /* fisherYatesExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E00DA20792A3000B972C4 /* fisherYatesExtension.swift */; };
+		3B9E00DD2079337000B972C4 /* PartyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E00DC2079337000B972C4 /* PartyViewController.swift */; };
+		3BEF61E8207C33770023CA3D /* Proxima Nova Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3BEF61E7207C33770023CA3D /* Proxima Nova Regular.otf */; };
+		3BF2825E207A6FA000A789D5 /* timeDisplayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF2825D207A6FA000A789D5 /* timeDisplayExtension.swift */; };
+		3BF28260207ADBF300A789D5 /* segueExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF2825F207ADBF200A789D5 /* segueExtension.swift */; };
+		3BF28275207AEBE200A789D5 /* Proxima Nova - Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3BF28274207AEBE100A789D5 /* Proxima Nova - Semibold.otf */; };
+		3BF28277207AFE8100A789D5 /* Proxima Nova Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3BF28276207AFE8100A789D5 /* Proxima Nova Bold.otf */; };
+		3BF28279207BC3A400A789D5 /* userObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF28278207BC3A400A789D5 /* userObject.swift */; };
+		D5B37CA31B6ED041F5AAF416 /* Pods_Apollo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2CBD033B12CA622598253CC /* Pods_Apollo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B301A7F2079738A00E0520D /* ListenerCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenerCodeViewController.swift; sourceTree = "<group>"; };
+		3B301A872079C6D200E0520D /* albumArtExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = albumArtExtension.swift; sourceTree = "<group>"; };
+		3B301A892079CAA300E0520D /* currentlyPlayingObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = currentlyPlayingObject.swift; sourceTree = "<group>"; };
+		3B63EF5D20881CF200722AA3 /* displayDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = displayDetails.swift; sourceTree = "<group>"; };
+		3B70513F2076E3420089E6E1 /* Apollo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apollo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B7051422076E3420089E6E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B7051442076E3420089E6E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B7051472076E3420089E6E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B7051492076E3430089E6E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B70514C2076E3430089E6E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B70514E2076E3430089E6E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B7051582076E49E0089E6E1 /* SpotifyAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAuthentication.framework; sourceTree = "<group>"; };
+		3B70515A2076E5280089E6E1 /* Apollo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Apollo-Bridging-Header.h"; sourceTree = "<group>"; };
+		3B70515E2076E8A40089E6E1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3B913C9C2076F81A00B6F24A /* apolloNotificationConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apolloNotificationConstant.swift; sourceTree = "<group>"; };
+		3B913C9E2076FD7F00B6F24A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3B913CA2207717C500B6F24A /* urlExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = urlExtension.swift; sourceTree = "<group>"; };
+		3B9E00D8207923A100B972C4 /* DJCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJCodeViewController.swift; sourceTree = "<group>"; };
+		3B9E00DA20792A3000B972C4 /* fisherYatesExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fisherYatesExtension.swift; sourceTree = "<group>"; };
+		3B9E00DC2079337000B972C4 /* PartyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyViewController.swift; sourceTree = "<group>"; };
+		3BEF61E7207C33770023CA3D /* Proxima Nova Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Regular.otf"; sourceTree = "<group>"; };
+		3BF2825D207A6FA000A789D5 /* timeDisplayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeDisplayExtension.swift; sourceTree = "<group>"; };
+		3BF2825F207ADBF200A789D5 /* segueExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = segueExtension.swift; sourceTree = "<group>"; };
+		3BF28274207AEBE100A789D5 /* Proxima Nova - Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova - Semibold.otf"; sourceTree = "<group>"; };
+		3BF28276207AFE8100A789D5 /* Proxima Nova Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Bold.otf"; sourceTree = "<group>"; };
+		3BF28278207BC3A400A789D5 /* userObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userObject.swift; sourceTree = "<group>"; };
+		7145252B2AB50575D90AC3A1 /* Pods-Apollo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apollo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Apollo/Pods-Apollo.release.xcconfig"; sourceTree = "<group>"; };
+		DA5101C5873F6CBE72693390 /* Pods-Apollo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apollo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Apollo/Pods-Apollo.debug.xcconfig"; sourceTree = "<group>"; };
+		F2CBD033B12CA622598253CC /* Pods_Apollo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Apollo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B70513C2076E3420089E6E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7051592076E49E0089E6E1 /* SpotifyAuthentication.framework in Frameworks */,
+				D5B37CA31B6ED041F5AAF416 /* Pods_Apollo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B7051362076E3420089E6E1 = {
+			isa = PBXGroup;
+			children = (
+				3B7051412076E3420089E6E1 /* Apollo */,
+				3B7051402076E3420089E6E1 /* Products */,
+				3B70515A2076E5280089E6E1 /* Apollo-Bridging-Header.h */,
+				95E2C378994C7C2C73E43E02 /* Pods */,
+				EA3E690A307F24A9A876B5DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B7051402076E3420089E6E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B70513F2076E3420089E6E1 /* Apollo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B7051412076E3420089E6E1 /* Apollo */ = {
+			isa = PBXGroup;
+			children = (
+				3BF28261207AE76600A789D5 /* Fonts */,
+				3B9E00DF20793A0A00B972C4 /* Extensions */,
+				3B9E00DE207939DB00B972C4 /* Constants */,
+				3B9E00D8207923A100B972C4 /* DJCodeViewController.swift */,
+				3B7051572076E49E0089E6E1 /* Frameworks */,
+				3B7051422076E3420089E6E1 /* AppDelegate.swift */,
+				3B63EF5D20881CF200722AA3 /* displayDetails.swift */,
+				3B7051442076E3420089E6E1 /* ViewController.swift */,
+				3B913C9E2076FD7F00B6F24A /* MainViewController.swift */,
+				3B7051462076E3420089E6E1 /* Main.storyboard */,
+				3B301A7F2079738A00E0520D /* ListenerCodeViewController.swift */,
+				3B9E00DC2079337000B972C4 /* PartyViewController.swift */,
+				3B7051492076E3430089E6E1 /* Assets.xcassets */,
+				3B70514B2076E3430089E6E1 /* LaunchScreen.storyboard */,
+				3B70514E2076E3430089E6E1 /* Info.plist */,
+			);
+			path = Apollo;
+			sourceTree = "<group>";
+		};
+		3B7051572076E49E0089E6E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B7051582076E49E0089E6E1 /* SpotifyAuthentication.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B9E00DE207939DB00B972C4 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				3B70515E2076E8A40089E6E1 /* Constants.swift */,
+				3B301A892079CAA300E0520D /* currentlyPlayingObject.swift */,
+				3BF28278207BC3A400A789D5 /* userObject.swift */,
+				3B913C9C2076F81A00B6F24A /* apolloNotificationConstant.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		3B9E00DF20793A0A00B972C4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3BF2825F207ADBF200A789D5 /* segueExtension.swift */,
+				3B9E00DA20792A3000B972C4 /* fisherYatesExtension.swift */,
+				3B913CA2207717C500B6F24A /* urlExtension.swift */,
+				3B301A872079C6D200E0520D /* albumArtExtension.swift */,
+				3BF2825D207A6FA000A789D5 /* timeDisplayExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3BF28261207AE76600A789D5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3BF28276207AFE8100A789D5 /* Proxima Nova Bold.otf */,
+				3BF28274207AEBE100A789D5 /* Proxima Nova - Semibold.otf */,
+				3BEF61E7207C33770023CA3D /* Proxima Nova Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		95E2C378994C7C2C73E43E02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA5101C5873F6CBE72693390 /* Pods-Apollo.debug.xcconfig */,
+				7145252B2AB50575D90AC3A1 /* Pods-Apollo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA3E690A307F24A9A876B5DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2CBD033B12CA622598253CC /* Pods_Apollo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B70513E2076E3420089E6E1 /* Apollo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B7051512076E3430089E6E1 /* Build configuration list for PBXNativeTarget "Apollo" */;
+			buildPhases = (
+				938124E8BBFE9684A7709BDE /* [CP] Check Pods Manifest.lock */,
+				3B70513B2076E3420089E6E1 /* Sources */,
+				3B70513C2076E3420089E6E1 /* Frameworks */,
+				3B70513D2076E3420089E6E1 /* Resources */,
+				5D1CB23718A6628350FCF3B7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Apollo;
+			productName = Apollo;
+			productReference = 3B70513F2076E3420089E6E1 /* Apollo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B7051372076E3420089E6E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Kevin Thwaits";
+				TargetAttributes = {
+					3B70513E2076E3420089E6E1 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+				};
+			};
+			buildConfigurationList = 3B70513A2076E3420089E6E1 /* Build configuration list for PBXProject "Apollo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B7051362076E3420089E6E1;
+			productRefGroup = 3B7051402076E3420089E6E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B70513E2076E3420089E6E1 /* Apollo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B70513D2076E3420089E6E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF28277207AFE8100A789D5 /* Proxima Nova Bold.otf in Resources */,
+				3B70514D2076E3430089E6E1 /* LaunchScreen.storyboard in Resources */,
+				3BF28275207AEBE200A789D5 /* Proxima Nova - Semibold.otf in Resources */,
+				3B70514A2076E3430089E6E1 /* Assets.xcassets in Resources */,
+				3BEF61E8207C33770023CA3D /* Proxima Nova Regular.otf in Resources */,
+				3B7051482076E3420089E6E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D1CB23718A6628350FCF3B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Apollo/Pods-Apollo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MarqueeLabel/MarqueeLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MarqueeLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Apollo/Pods-Apollo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		938124E8BBFE9684A7709BDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Apollo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B70513B2076E3420089E6E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7051452076E3420089E6E1 /* ViewController.swift in Sources */,
+				3B301A882079C6D200E0520D /* albumArtExtension.swift in Sources */,
+				3B301A8A2079CAA300E0520D /* currentlyPlayingObject.swift in Sources */,
+				3BF28279207BC3A400A789D5 /* userObject.swift in Sources */,
+				3B9E00DB20792A3000B972C4 /* fisherYatesExtension.swift in Sources */,
+				3B7051432076E3420089E6E1 /* AppDelegate.swift in Sources */,
+				3BF2825E207A6FA000A789D5 /* timeDisplayExtension.swift in Sources */,
+				3B9E00D9207923A100B972C4 /* DJCodeViewController.swift in Sources */,
+				3B9E00DD2079337000B972C4 /* PartyViewController.swift in Sources */,
+				3B913C9D2076F81A00B6F24A /* apolloNotificationConstant.swift in Sources */,
+				3B301A802079738A00E0520D /* ListenerCodeViewController.swift in Sources */,
+				3B63EF5E20881CF200722AA3 /* displayDetails.swift in Sources */,
+				3B913CA3207717C500B6F24A /* urlExtension.swift in Sources */,
+				3B70515F2076E8A40089E6E1 /* Constants.swift in Sources */,
+				3B913C9F2076FD7F00B6F24A /* MainViewController.swift in Sources */,
+				3BF28260207ADBF300A789D5 /* segueExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B7051462076E3420089E6E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B7051472076E3420089E6E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B70514B2076E3430089E6E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B70514C2076E3430089E6E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B70514F2076E3430089E6E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B7051502076E3430089E6E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B7051522076E3430089E6E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA5101C5873F6CBE72693390 /* Pods-Apollo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C32HX45PQ4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Apollo",
+					"$(PROJECT_DIR)/Apollo/Frameworks",
+				);
+				INFOPLIST_FILE = Apollo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KthwaitsNMIX.Apollo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Apollo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3B7051532076E3430089E6E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7145252B2AB50575D90AC3A1 /* Pods-Apollo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C32HX45PQ4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Apollo",
+					"$(PROJECT_DIR)/Apollo/Frameworks",
+				);
+				INFOPLIST_FILE = Apollo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KthwaitsNMIX.Apollo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Apollo-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B70513A2076E3420089E6E1 /* Build configuration list for PBXProject "Apollo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B70514F2076E3430089E6E1 /* Debug */,
+				3B7051502076E3430089E6E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B7051512076E3430089E6E1 /* Build configuration list for PBXNativeTarget "Apollo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B7051522076E3430089E6E1 /* Debug */,
+				3B7051532076E3430089E6E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B7051372076E3420089E6E1 /* Project object */;
+}
